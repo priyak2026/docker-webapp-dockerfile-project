@@ -1,0 +1,22 @@
+    1  HISTORY
+    2  CMD
+    3  DOCKER IMAGES
+    4  history
+    5  docker images
+    6  pwd
+    7  ls
+    8  cd webapp-color
+    9  ls
+   10  vi Dockerfile
+   11  docker build -t webapp-color .
+   12  docker run -p 8282:8080 webapp-color .
+   13  docker run -p 8282:8080 webapp-color
+   14  docker run python:3.6 cat /etc/*release*
+   15  docker images
+   16  ls -l
+   17  vi Dockerfile
+   18  docker build -t webapp-color:lite .
+   19  docker run -d -p 8383:8080 webapp-color:lite
+   20  cd .
+   21  cd ..
+   22  ls
